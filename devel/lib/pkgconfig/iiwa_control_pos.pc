@@ -1,0 +1,8 @@
+prefix=/home/birl/worksp/iiwa_stack_birl/devel
+
+Name: iiwa_control_pos
+Description: Description of iiwa_control_pos
+Version: 0.1.0
+Cflags: 
+Libs: -L/home/birl/worksp/iiwa_stack_birl/devel/lib 
+Requires: 

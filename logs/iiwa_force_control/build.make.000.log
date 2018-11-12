@@ -1,0 +1,16 @@
+[35m[1mScanning dependencies of target force_track_stiff[0m
+[35m[1mScanning dependencies of target position_impedance_switcher[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/force_track_stiff.dir/src/ForceTrackStiffness.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/position_impedance_switcher.dir/src/PositionImpedanceSwitcher.cpp.o[0m
+[ 37%] [32m[1mLinking CXX shared library /home/birl/iiwa-stack/devel/.private/iiwa_force_control/lib/libforce_track_stiff.so[0m
+[ 37%] Built target force_track_stiff
+[35m[1mScanning dependencies of target force_track_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/force_track_node.dir/src/test_force_track_node.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable /home/birl/iiwa-stack/devel/.private/iiwa_force_control/lib/iiwa_force_control/force_track_node[0m
+[ 62%] Built target force_track_node
+[ 75%] [32m[1mLinking CXX shared library /home/birl/iiwa-stack/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so[0m
+[ 75%] Built target position_impedance_switcher
+[35m[1mScanning dependencies of target test_switcher_node[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/test_switcher_node.dir/src/test_impedance_position_switcher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/birl/iiwa-stack/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node[0m
+[100%] Built target test_switcher_node

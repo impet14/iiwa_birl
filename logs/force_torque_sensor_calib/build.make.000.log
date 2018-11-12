@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target ft_calib_node[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/ft_calib_node.dir/src/ft_calib.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/ft_calib_node.dir/src/ft_calib_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/birl/iiwa-stack/devel/.private/force_torque_sensor_calib/lib/force_torque_sensor_calib/ft_calib_node[0m
+[100%] Built target ft_calib_node

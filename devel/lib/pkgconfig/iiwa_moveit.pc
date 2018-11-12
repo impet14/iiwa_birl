@@ -1,0 +1,8 @@
+prefix=/home/birl/worksp/iiwa_stack_birl/devel
+
+Name: iiwa_moveit
+Description: Description of iiwa_moveit
+Version: 1.4.0
+Cflags: 
+Libs: -L/home/birl/worksp/iiwa_stack_birl/devel/lib 
+Requires: 

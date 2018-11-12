@@ -1,0 +1,8 @@
+Symlinking /home/birl/iiwa-stack/devel/./setup.zsh
+Symlinking /home/birl/iiwa-stack/devel/./setup.sh
+Symlinking /home/birl/iiwa-stack/devel/./setup.bash
+Symlinking /home/birl/iiwa-stack/devel/./_setup_util.py
+Symlinking /home/birl/iiwa-stack/devel/./env.sh
+Symlinking /home/birl/iiwa-stack/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/birl/iiwa-stack/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/birl/iiwa-stack/devel/lib/pkgconfig/catkin_tools_prebuild.pc

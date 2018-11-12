@@ -1,0 +1,14 @@
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target _timesync_generate_messages_check_deps_TimesyncDebug
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[ 16%] Built target timesync_generate_messages_py
+[ 25%] Built target timesync_generate_messages_cpp
+[ 33%] Built target timesync_generate_messages_nodejs
+[ 50%] Built target timesync_generate_messages_eus
+[ 58%] Built target timesync_generate_messages_lisp
+[ 83%] Built target timesync
+[ 83%] Built target timesync_generate_messages
+[100%] Built target example

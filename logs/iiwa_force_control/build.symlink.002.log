@@ -1,0 +1,7 @@
+Linked: (/home/birl/iiwa-stack/devel/.private/iiwa_force_control/share/iiwa_force_control/cmake/iiwa_force_controlConfig.cmake, /home/birl/iiwa-stack/devel/share/iiwa_force_control/cmake/iiwa_force_controlConfig.cmake)
+Linked: (/home/birl/iiwa-stack/devel/.private/iiwa_force_control/share/iiwa_force_control/cmake/iiwa_force_controlConfig-version.cmake, /home/birl/iiwa-stack/devel/share/iiwa_force_control/cmake/iiwa_force_controlConfig-version.cmake)
+Linked: (/home/birl/iiwa-stack/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so, /home/birl/iiwa-stack/devel/lib/libposition_impedance_switcher.so)
+Linked: (/home/birl/iiwa-stack/devel/.private/iiwa_force_control/lib/libforce_track_stiff.so, /home/birl/iiwa-stack/devel/lib/libforce_track_stiff.so)
+Linked: (/home/birl/iiwa-stack/devel/.private/iiwa_force_control/lib/pkgconfig/iiwa_force_control.pc, /home/birl/iiwa-stack/devel/lib/pkgconfig/iiwa_force_control.pc)
+Linked: (/home/birl/iiwa-stack/devel/.private/iiwa_force_control/lib/iiwa_force_control/force_track_node, /home/birl/iiwa-stack/devel/lib/iiwa_force_control/force_track_node)
+Linked: (/home/birl/iiwa-stack/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node, /home/birl/iiwa-stack/devel/lib/iiwa_force_control/test_switcher_node)

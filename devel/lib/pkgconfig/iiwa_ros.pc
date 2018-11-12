@@ -1,0 +1,8 @@
+prefix=/home/birl/worksp/iiwa_stack_birl/devel
+
+Name: iiwa_ros
+Description: Description of iiwa_ros
+Version: 1.4.0
+Cflags: -I/home/birl/worksp/iiwa_stack_birl/src/iiwa_ros/include
+Libs: -L/home/birl/worksp/iiwa_stack_birl/devel/lib -liiwa_ros
+Requires: iiwa_msgs roscpp

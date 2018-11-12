@@ -1,0 +1,4 @@
+Symlinking /home/birl/iiwa-stack/devel/share/force_torque_sensor_calib/cmake/force_torque_sensor_calibConfig.cmake
+Symlinking /home/birl/iiwa-stack/devel/share/force_torque_sensor_calib/cmake/force_torque_sensor_calibConfig-version.cmake
+Symlinking /home/birl/iiwa-stack/devel/lib/force_torque_sensor_calib/ft_calib_node
+Symlinking /home/birl/iiwa-stack/devel/lib/pkgconfig/force_torque_sensor_calib.pc

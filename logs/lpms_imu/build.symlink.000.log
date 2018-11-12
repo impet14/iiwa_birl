@@ -1,0 +1,4 @@
+Symlinking /home/birl/iiwa-stack/devel/share/lpms_imu/cmake/lpms_imuConfig.cmake
+Symlinking /home/birl/iiwa-stack/devel/share/lpms_imu/cmake/lpms_imuConfig-version.cmake
+Symlinking /home/birl/iiwa-stack/devel/lib/lpms_imu/lpms_imu_node
+Symlinking /home/birl/iiwa-stack/devel/lib/pkgconfig/lpms_imu.pc

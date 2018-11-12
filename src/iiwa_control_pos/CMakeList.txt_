@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 2.8.3)
+project(control_pos)
+
+find_package(catkin REQUIRED COMPONENTS senser_msgs std_msgs roscpp rospy iiwa_msgs)
+
+catkin_package( CATKIN_DEPENDS)
+
+add_executable(change_wrench_frame_id src/change_wrench_frame_id.cpp)
+add_executable(main src/main.cpp)
+
+target_link_libraries(change_wrench_frame_id ${catkin_LIBRARIES}
+)
+target_link_libraries(main ${catkin_LIBRARIES}
+)
+
+
+

@@ -1,0 +1,8 @@
+prefix=/home/birl/worksp/iiwa_stack_birl/install
+
+Name: iiwa_force_control
+Description: Description of iiwa_force_control
+Version: 0.1.0
+Cflags: 
+Libs: -L/home/birl/worksp/iiwa_stack_birl/install/lib 
+Requires: moveit_core moveit_ros_planning_interface

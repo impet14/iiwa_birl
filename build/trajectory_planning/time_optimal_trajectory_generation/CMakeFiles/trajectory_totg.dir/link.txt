@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC -g  -shared -Wl,-soname,libtrajectory_totg.so -o /home/birl/worksp/iiwa_stack_birl/devel/lib/libtrajectory_totg.so CMakeFiles/trajectory_totg.dir/src/Trajectory.cpp.o 
