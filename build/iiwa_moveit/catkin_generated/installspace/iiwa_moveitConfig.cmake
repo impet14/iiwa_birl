@@ -68,7 +68,7 @@ set(iiwa_moveit_CONFIG_INCLUDED TRUE)
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
   set(iiwa_moveit_SOURCE_PREFIX /home/birl/worksp/iiwa_stack_birl/src/iiwa_moveit)
-  set(iiwa_moveit_DEVEL_PREFIX /home/birl/worksp/iiwa_stack_birl/devel)
+  set(iiwa_moveit_DEVEL_PREFIX /home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_moveit)
   set(iiwa_moveit_INSTALL_PREFIX "")
   set(iiwa_moveit_PREFIX ${iiwa_moveit_DEVEL_PREFIX})
 else()
@@ -129,7 +129,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/birl/worksp/iiwa_stack_birl/install/lib;/home/birl/worksp/iiwa_stack_birl/devel/lib;/home/birl/worksp/iiwa_stack_birl2/devel/lib;/home/birl/worksp/ros_realsense2/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/birl/worksp/iiwa_stack_birl/install/lib;/home/birl/worksp/ros/kinetic/hand_detect/devel/lib;/home/birl/worksp/ros/kinetic/ros_ws/devel/lib;/home/birl/worksp/iiwa_stack_birl/devel/lib;/home/birl/worksp/ros_realsense2/devel/lib;/home/birl/worksp/ros/kinetic/hand_eye/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

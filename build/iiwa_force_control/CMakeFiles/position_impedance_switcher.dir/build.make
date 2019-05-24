@@ -43,32 +43,32 @@ RM = /opt/cmake/cmake-3.12.0-Linux-x86_64/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/birl/worksp/iiwa_stack_birl/src
+CMAKE_SOURCE_DIR = /home/birl/worksp/iiwa_stack_birl/src/iiwa_force_control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/birl/worksp/iiwa_stack_birl/build
+CMAKE_BINARY_DIR = /home/birl/worksp/iiwa_stack_birl/build/iiwa_force_control
 
 # Include any dependencies generated for this target.
-include iiwa_force_control/CMakeFiles/position_impedance_switcher.dir/depend.make
+include CMakeFiles/position_impedance_switcher.dir/depend.make
 
 # Include the progress variables for this target.
-include iiwa_force_control/CMakeFiles/position_impedance_switcher.dir/progress.make
+include CMakeFiles/position_impedance_switcher.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include iiwa_force_control/CMakeFiles/position_impedance_switcher.dir/flags.make
+include CMakeFiles/position_impedance_switcher.dir/flags.make
 
-iiwa_force_control/CMakeFiles/position_impedance_switcher.dir/src/PositionImpedanceSwitcher.cpp.o: iiwa_force_control/CMakeFiles/position_impedance_switcher.dir/flags.make
-iiwa_force_control/CMakeFiles/position_impedance_switcher.dir/src/PositionImpedanceSwitcher.cpp.o: /home/birl/worksp/iiwa_stack_birl/src/iiwa_force_control/src/PositionImpedanceSwitcher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/birl/worksp/iiwa_stack_birl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object iiwa_force_control/CMakeFiles/position_impedance_switcher.dir/src/PositionImpedanceSwitcher.cpp.o"
-	cd /home/birl/worksp/iiwa_stack_birl/build/iiwa_force_control && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/position_impedance_switcher.dir/src/PositionImpedanceSwitcher.cpp.o -c /home/birl/worksp/iiwa_stack_birl/src/iiwa_force_control/src/PositionImpedanceSwitcher.cpp
+CMakeFiles/position_impedance_switcher.dir/src/PositionImpedanceSwitcher.cpp.o: CMakeFiles/position_impedance_switcher.dir/flags.make
+CMakeFiles/position_impedance_switcher.dir/src/PositionImpedanceSwitcher.cpp.o: /home/birl/worksp/iiwa_stack_birl/src/iiwa_force_control/src/PositionImpedanceSwitcher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/birl/worksp/iiwa_stack_birl/build/iiwa_force_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/position_impedance_switcher.dir/src/PositionImpedanceSwitcher.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/position_impedance_switcher.dir/src/PositionImpedanceSwitcher.cpp.o -c /home/birl/worksp/iiwa_stack_birl/src/iiwa_force_control/src/PositionImpedanceSwitcher.cpp
 
-iiwa_force_control/CMakeFiles/position_impedance_switcher.dir/src/PositionImpedanceSwitcher.cpp.i: cmake_force
+CMakeFiles/position_impedance_switcher.dir/src/PositionImpedanceSwitcher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/position_impedance_switcher.dir/src/PositionImpedanceSwitcher.cpp.i"
-	cd /home/birl/worksp/iiwa_stack_birl/build/iiwa_force_control && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/birl/worksp/iiwa_stack_birl/src/iiwa_force_control/src/PositionImpedanceSwitcher.cpp > CMakeFiles/position_impedance_switcher.dir/src/PositionImpedanceSwitcher.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/birl/worksp/iiwa_stack_birl/src/iiwa_force_control/src/PositionImpedanceSwitcher.cpp > CMakeFiles/position_impedance_switcher.dir/src/PositionImpedanceSwitcher.cpp.i
 
-iiwa_force_control/CMakeFiles/position_impedance_switcher.dir/src/PositionImpedanceSwitcher.cpp.s: cmake_force
+CMakeFiles/position_impedance_switcher.dir/src/PositionImpedanceSwitcher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/position_impedance_switcher.dir/src/PositionImpedanceSwitcher.cpp.s"
-	cd /home/birl/worksp/iiwa_stack_birl/build/iiwa_force_control && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/birl/worksp/iiwa_stack_birl/src/iiwa_force_control/src/PositionImpedanceSwitcher.cpp -o CMakeFiles/position_impedance_switcher.dir/src/PositionImpedanceSwitcher.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/birl/worksp/iiwa_stack_birl/src/iiwa_force_control/src/PositionImpedanceSwitcher.cpp -o CMakeFiles/position_impedance_switcher.dir/src/PositionImpedanceSwitcher.cpp.s
 
 # Object files for target position_impedance_switcher
 position_impedance_switcher_OBJECTS = \
@@ -77,113 +77,113 @@ position_impedance_switcher_OBJECTS = \
 # External object files for target position_impedance_switcher
 position_impedance_switcher_EXTERNAL_OBJECTS =
 
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: iiwa_force_control/CMakeFiles/position_impedance_switcher.dir/src/PositionImpedanceSwitcher.cpp.o
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: iiwa_force_control/CMakeFiles/position_impedance_switcher.dir/build.make
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libtf.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libactionlib.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libtf2.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_common_planning_interface_objects.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_planning_scene_interface.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_move_group_interface.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_warehouse.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libwarehouse_ros.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_pick_place_planner.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_move_group_capabilities_base.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_rdf_loader.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_kinematics_plugin_loader.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_robot_model_loader.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_constraint_sampler_manager_loader.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_planning_pipeline.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_trajectory_execution_manager.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_plan_execution.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_planning_scene_monitor.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_collision_plugin_loader.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_lazy_free_space_updater.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_point_containment_filter.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_occupancy_map_monitor.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_pointcloud_octomap_updater_core.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_semantic_world.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_exceptions.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_background_processing.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_kinematics_base.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_robot_model.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_transforms.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_robot_state.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_robot_trajectory.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_planning_interface.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_collision_detection.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_collision_detection_fcl.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_kinematic_constraints.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_planning_scene.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_constraint_samplers.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_planning_request_adapter.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_profiler.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_trajectory_processing.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_distance_field.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_kinematics_metrics.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_dynamics_solver.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_utils.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/libfcl.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libeigen_conversions.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libgeometric_shapes.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/liboctomap.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/liboctomath.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libkdl_parser.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/liborocos-kdl.so.1.3.0
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/liburdf.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/librosconsole_bridge.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/librandom_numbers.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libsrdfdom.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libimage_transport.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libclass_loader.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /usr/lib/libPocoFoundation.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libroslib.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/librospack.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libroscpp.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/librosconsole.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/librostime.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libcpp_common.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so: iiwa_force_control/CMakeFiles/position_impedance_switcher.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/birl/worksp/iiwa_stack_birl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so"
-	cd /home/birl/worksp/iiwa_stack_birl/build/iiwa_force_control && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/position_impedance_switcher.dir/link.txt --verbose=$(VERBOSE)
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: CMakeFiles/position_impedance_switcher.dir/src/PositionImpedanceSwitcher.cpp.o
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: CMakeFiles/position_impedance_switcher.dir/build.make
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libtf.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libactionlib.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libtf2.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_common_planning_interface_objects.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_planning_scene_interface.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_move_group_interface.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_warehouse.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libwarehouse_ros.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_pick_place_planner.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_move_group_capabilities_base.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_rdf_loader.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_kinematics_plugin_loader.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_robot_model_loader.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_constraint_sampler_manager_loader.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_planning_pipeline.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_trajectory_execution_manager.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_plan_execution.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_planning_scene_monitor.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_collision_plugin_loader.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_lazy_free_space_updater.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_point_containment_filter.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_occupancy_map_monitor.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_pointcloud_octomap_updater_core.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_semantic_world.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_exceptions.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_background_processing.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_kinematics_base.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_robot_model.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_transforms.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_robot_state.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_robot_trajectory.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_planning_interface.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_collision_detection.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_collision_detection_fcl.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_kinematic_constraints.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_planning_scene.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_constraint_samplers.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_planning_request_adapter.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_profiler.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_trajectory_processing.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_distance_field.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_kinematics_metrics.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_dynamics_solver.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmoveit_utils.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/libfcl.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libeigen_conversions.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libgeometric_shapes.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/liboctomap.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/liboctomath.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libkdl_parser.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/liborocos-kdl.so.1.3.0
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/liburdf.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/librosconsole_bridge.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/librandom_numbers.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libsrdfdom.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libimage_transport.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libclass_loader.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /usr/lib/libPocoFoundation.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libroslib.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/librospack.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libroscpp.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/librosconsole.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/librostime.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /opt/ros/kinetic/lib/libcpp_common.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so: CMakeFiles/position_impedance_switcher.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/birl/worksp/iiwa_stack_birl/build/iiwa_force_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/position_impedance_switcher.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-iiwa_force_control/CMakeFiles/position_impedance_switcher.dir/build: /home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so
+CMakeFiles/position_impedance_switcher.dir/build: /home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so
 
-.PHONY : iiwa_force_control/CMakeFiles/position_impedance_switcher.dir/build
+.PHONY : CMakeFiles/position_impedance_switcher.dir/build
 
-iiwa_force_control/CMakeFiles/position_impedance_switcher.dir/clean:
-	cd /home/birl/worksp/iiwa_stack_birl/build/iiwa_force_control && $(CMAKE_COMMAND) -P CMakeFiles/position_impedance_switcher.dir/cmake_clean.cmake
-.PHONY : iiwa_force_control/CMakeFiles/position_impedance_switcher.dir/clean
+CMakeFiles/position_impedance_switcher.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles/position_impedance_switcher.dir/cmake_clean.cmake
+.PHONY : CMakeFiles/position_impedance_switcher.dir/clean
 
-iiwa_force_control/CMakeFiles/position_impedance_switcher.dir/depend:
-	cd /home/birl/worksp/iiwa_stack_birl/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/birl/worksp/iiwa_stack_birl/src /home/birl/worksp/iiwa_stack_birl/src/iiwa_force_control /home/birl/worksp/iiwa_stack_birl/build /home/birl/worksp/iiwa_stack_birl/build/iiwa_force_control /home/birl/worksp/iiwa_stack_birl/build/iiwa_force_control/CMakeFiles/position_impedance_switcher.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : iiwa_force_control/CMakeFiles/position_impedance_switcher.dir/depend
+CMakeFiles/position_impedance_switcher.dir/depend:
+	cd /home/birl/worksp/iiwa_stack_birl/build/iiwa_force_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/birl/worksp/iiwa_stack_birl/src/iiwa_force_control /home/birl/worksp/iiwa_stack_birl/src/iiwa_force_control /home/birl/worksp/iiwa_stack_birl/build/iiwa_force_control /home/birl/worksp/iiwa_stack_birl/build/iiwa_force_control /home/birl/worksp/iiwa_stack_birl/build/iiwa_force_control/CMakeFiles/position_impedance_switcher.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : CMakeFiles/position_impedance_switcher.dir/depend
 

@@ -1,10 +1,1 @@
-(cl:in-package iiwa_msgs-msg)
-(cl:export '(CARTESIAN_STIFFNESS-VAL
-          CARTESIAN_STIFFNESS
-          CARTESIAN_DAMPING-VAL
-          CARTESIAN_DAMPING
-          NULLSPACE_STIFFNESS-VAL
-          NULLSPACE_STIFFNESS
-          NULLSPACE_DAMPING-VAL
-          NULLSPACE_DAMPING
-))
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/share/common-lisp/ros/iiwa_msgs/msg/_package_CartesianImpedanceControlMode.lisp

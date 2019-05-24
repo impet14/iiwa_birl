@@ -1,3 +1,1 @@
-from ._ConfigureSmartServo import *
-from ._SetPathParameters import *
-from ._TimeToDestination import *
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/lib/python2.7/dist-packages/iiwa_msgs/srv/__init__.py

@@ -1,7 +1,1 @@
-
-"use strict";
-
-module.exports = {
-  msg: require('./msg/_index.js'),
-  srv: require('./srv/_index.js')
-};
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/_index.js

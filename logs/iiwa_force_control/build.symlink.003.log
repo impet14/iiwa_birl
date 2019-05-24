@@ -1,0 +1,7 @@
+Symlinking /home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so
+Symlinking /home/birl/worksp/iiwa_stack_birl/devel/lib/libforce_track_stiff.so
+Symlinking /home/birl/worksp/iiwa_stack_birl/devel/lib/pkgconfig/iiwa_force_control.pc
+Symlinking /home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node
+Symlinking /home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/force_track_node
+Symlinking /home/birl/worksp/iiwa_stack_birl/devel/share/iiwa_force_control/cmake/iiwa_force_controlConfig-version.cmake
+Symlinking /home/birl/worksp/iiwa_stack_birl/devel/share/iiwa_force_control/cmake/iiwa_force_controlConfig.cmake

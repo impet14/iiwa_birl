@@ -1,0 +1,8 @@
+prefix=/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_nodetest
+
+Name: iiwa_nodetest
+Description: Description of iiwa_nodetest
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_nodetest/lib 
+Requires: 

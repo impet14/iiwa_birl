@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target tf_link_ee_imu_node[0m
+[35m[1mScanning dependencies of target main[0m
+[35m[1mScanning dependencies of target change_wrench_frame_id[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/change_wrench_frame_id.dir/src/change_wrench_frame_id.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/tf_link_ee_imu_node.dir/src/tf_imu_iiwa_link_ee.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable /home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_control_pos/lib/iiwa_control_pos/main[0m
+[ 66%] Built target main
+[ 83%] [32m[1mLinking CXX executable /home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_control_pos/lib/iiwa_control_pos/change_wrench_frame_id[0m
+[ 83%] Built target change_wrench_frame_id
+[100%] [32m[1mLinking CXX executable /home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_control_pos/lib/iiwa_control_pos/tf_link_ee_imu_node[0m
+[100%] Built target tf_link_ee_imu_node

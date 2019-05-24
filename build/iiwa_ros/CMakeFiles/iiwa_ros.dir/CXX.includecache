@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/birl/worksp/iiwa_stack_birl/devel/include/iiwa_msgs/CartesianControlModeLimits.h
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianControlModeLimits.h
 string
 -
 vector
@@ -28,7 +28,7 @@ iiwa_msgs/CartesianQuantity.h
 iiwa_msgs/CartesianQuantity.h
 -
 
-/home/birl/worksp/iiwa_stack_birl/devel/include/iiwa_msgs/CartesianImpedanceControlMode.h
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianImpedanceControlMode.h
 string
 -
 vector
@@ -48,7 +48,7 @@ iiwa_msgs/CartesianQuantity.h
 iiwa_msgs/CartesianQuantity.h
 -
 
-/home/birl/worksp/iiwa_stack_birl/devel/include/iiwa_msgs/CartesianQuantity.h
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianQuantity.h
 string
 -
 vector
@@ -64,7 +64,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/birl/worksp/iiwa_stack_birl/devel/include/iiwa_msgs/CartesianVelocity.h
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianVelocity.h
 string
 -
 vector
@@ -84,7 +84,7 @@ std_msgs/Header.h
 iiwa_msgs/CartesianQuantity.h
 -
 
-/home/birl/worksp/iiwa_stack_birl/devel/include/iiwa_msgs/ConfigureSmartServo.h
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/include/iiwa_msgs/ConfigureSmartServo.h
 ros/service_traits.h
 -
 iiwa_msgs/ConfigureSmartServoRequest.h
@@ -92,7 +92,7 @@ iiwa_msgs/ConfigureSmartServoRequest.h
 iiwa_msgs/ConfigureSmartServoResponse.h
 -
 
-/home/birl/worksp/iiwa_stack_birl/devel/include/iiwa_msgs/ConfigureSmartServoRequest.h
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/include/iiwa_msgs/ConfigureSmartServoRequest.h
 string
 -
 vector
@@ -118,7 +118,7 @@ iiwa_msgs/SinePatternControlMode.h
 iiwa_msgs/CartesianControlModeLimits.h
 -
 
-/home/birl/worksp/iiwa_stack_birl/devel/include/iiwa_msgs/ConfigureSmartServoResponse.h
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/include/iiwa_msgs/ConfigureSmartServoResponse.h
 string
 -
 vector
@@ -134,7 +134,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/birl/worksp/iiwa_stack_birl/devel/include/iiwa_msgs/ControlMode.h
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/include/iiwa_msgs/ControlMode.h
 string
 -
 vector
@@ -150,7 +150,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/birl/worksp/iiwa_stack_birl/devel/include/iiwa_msgs/DesiredForceControlMode.h
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/include/iiwa_msgs/DesiredForceControlMode.h
 string
 -
 vector
@@ -166,47 +166,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/birl/worksp/iiwa_stack_birl/devel/include/iiwa_msgs/JointDamping.h
-string
--
-vector
--
-map
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
-std_msgs/Header.h
--
-iiwa_msgs/JointQuantity.h
--
-
-/home/birl/worksp/iiwa_stack_birl/devel/include/iiwa_msgs/JointImpedanceControlMode.h
-string
--
-vector
--
-map
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
-iiwa_msgs/JointQuantity.h
--
-iiwa_msgs/JointQuantity.h
--
-
-/home/birl/worksp/iiwa_stack_birl/devel/include/iiwa_msgs/JointPosition.h
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/include/iiwa_msgs/JointDamping.h
 string
 -
 vector
@@ -226,7 +186,47 @@ std_msgs/Header.h
 iiwa_msgs/JointQuantity.h
 -
 
-/home/birl/worksp/iiwa_stack_birl/devel/include/iiwa_msgs/JointPositionVelocity.h
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/include/iiwa_msgs/JointImpedanceControlMode.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+iiwa_msgs/JointQuantity.h
+-
+iiwa_msgs/JointQuantity.h
+-
+
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/include/iiwa_msgs/JointPosition.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+std_msgs/Header.h
+-
+iiwa_msgs/JointQuantity.h
+-
+
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/include/iiwa_msgs/JointPositionVelocity.h
 string
 -
 vector
@@ -248,7 +248,7 @@ iiwa_msgs/JointQuantity.h
 iiwa_msgs/JointQuantity.h
 -
 
-/home/birl/worksp/iiwa_stack_birl/devel/include/iiwa_msgs/JointQuantity.h
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/include/iiwa_msgs/JointQuantity.h
 string
 -
 vector
@@ -264,27 +264,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/birl/worksp/iiwa_stack_birl/devel/include/iiwa_msgs/JointStiffness.h
-string
--
-vector
--
-map
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
-std_msgs/Header.h
--
-iiwa_msgs/JointQuantity.h
--
-
-/home/birl/worksp/iiwa_stack_birl/devel/include/iiwa_msgs/JointTorque.h
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/include/iiwa_msgs/JointStiffness.h
 string
 -
 vector
@@ -304,7 +284,7 @@ std_msgs/Header.h
 iiwa_msgs/JointQuantity.h
 -
 
-/home/birl/worksp/iiwa_stack_birl/devel/include/iiwa_msgs/JointVelocity.h
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/include/iiwa_msgs/JointTorque.h
 string
 -
 vector
@@ -324,7 +304,27 @@ std_msgs/Header.h
 iiwa_msgs/JointQuantity.h
 -
 
-/home/birl/worksp/iiwa_stack_birl/devel/include/iiwa_msgs/SetPathParameters.h
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/include/iiwa_msgs/JointVelocity.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+std_msgs/Header.h
+-
+iiwa_msgs/JointQuantity.h
+-
+
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/include/iiwa_msgs/SetPathParameters.h
 ros/service_traits.h
 -
 iiwa_msgs/SetPathParametersRequest.h
@@ -332,7 +332,7 @@ iiwa_msgs/SetPathParametersRequest.h
 iiwa_msgs/SetPathParametersResponse.h
 -
 
-/home/birl/worksp/iiwa_stack_birl/devel/include/iiwa_msgs/SetPathParametersRequest.h
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/include/iiwa_msgs/SetPathParametersRequest.h
 string
 -
 vector
@@ -348,7 +348,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/birl/worksp/iiwa_stack_birl/devel/include/iiwa_msgs/SetPathParametersResponse.h
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/include/iiwa_msgs/SetPathParametersResponse.h
 string
 -
 vector
@@ -364,7 +364,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/birl/worksp/iiwa_stack_birl/devel/include/iiwa_msgs/SinePatternControlMode.h
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/include/iiwa_msgs/SinePatternControlMode.h
 string
 -
 vector
@@ -380,7 +380,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/birl/worksp/iiwa_stack_birl/devel/include/iiwa_msgs/TimeToDestination.h
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/include/iiwa_msgs/TimeToDestination.h
 ros/service_traits.h
 -
 iiwa_msgs/TimeToDestinationRequest.h
@@ -388,7 +388,7 @@ iiwa_msgs/TimeToDestinationRequest.h
 iiwa_msgs/TimeToDestinationResponse.h
 -
 
-/home/birl/worksp/iiwa_stack_birl/devel/include/iiwa_msgs/TimeToDestinationRequest.h
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/include/iiwa_msgs/TimeToDestinationRequest.h
 string
 -
 vector
@@ -404,7 +404,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/birl/worksp/iiwa_stack_birl/devel/include/iiwa_msgs/TimeToDestinationResponse.h
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/include/iiwa_msgs/TimeToDestinationResponse.h
 string
 -
 vector

@@ -1,1 +1,1 @@
-set(ORDERED_PATHS "/opt/ros/kinetic/lib")
+set(ORDERED_PATHS "/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_ros/lib;/opt/ros/kinetic/lib")

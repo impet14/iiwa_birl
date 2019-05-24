@@ -1,3 +1,0 @@
-[ 33%] Built target main
-[ 66%] Built target change_wrench_frame_id
-[100%] Built target tf_link_ee_imu_node

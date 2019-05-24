@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/force_track_stiff.dir/src/ForceTrackStiffness.cpp.o"
-  "/home/birl/worksp/iiwa_stack_birl/devel/lib/libforce_track_stiff.pdb"
-  "/home/birl/worksp/iiwa_stack_birl/devel/lib/libforce_track_stiff.so"
+  "/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libforce_track_stiff.pdb"
+  "/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libforce_track_stiff.so"
 )
 
 # Per-language clean rules from dependency scanning.

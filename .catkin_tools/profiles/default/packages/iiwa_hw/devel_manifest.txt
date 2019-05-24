@@ -1,0 +1,6 @@
+iiwa_hw
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so /home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/pkgconfig/iiwa_hw.pc /home/birl/worksp/iiwa_stack_birl/devel/lib/pkgconfig/iiwa_hw.pc
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/iiwa_hw/iiwa_hw-bin /home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_hw/iiwa_hw-bin
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/share/iiwa_hw/cmake/iiwa_hwConfig.cmake /home/birl/worksp/iiwa_stack_birl/devel/share/iiwa_hw/cmake/iiwa_hwConfig.cmake
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/share/iiwa_hw/cmake/iiwa_hwConfig-version.cmake /home/birl/worksp/iiwa_stack_birl/devel/share/iiwa_hw/cmake/iiwa_hwConfig-version.cmake

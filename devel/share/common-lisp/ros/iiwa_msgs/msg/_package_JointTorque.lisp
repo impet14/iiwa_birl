@@ -1,6 +1,1 @@
-(cl:in-package iiwa_msgs-msg)
-(cl:export '(HEADER-VAL
-          HEADER
-          TORQUE-VAL
-          TORQUE
-))
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/share/common-lisp/ros/iiwa_msgs/msg/_package_JointTorque.lisp

@@ -1,8 +1,1 @@
-prefix=/home/birl/worksp/iiwa_stack_birl/devel
-
-Name: time_optimal_trajectory_generation
-Description: Description of time_optimal_trajectory_generation
-Version: 0.1.0
-Cflags: 
-Libs: -L/home/birl/worksp/iiwa_stack_birl/devel/lib 
-Requires: 
+/home/birl/worksp/iiwa_stack_birl/devel/.private/time_optimal_trajectory_generation/lib/pkgconfig/time_optimal_trajectory_generation.pc

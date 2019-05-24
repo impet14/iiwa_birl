@@ -43,32 +43,32 @@ RM = /opt/cmake/cmake-3.12.0-Linux-x86_64/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/birl/worksp/iiwa_stack_birl/src
+CMAKE_SOURCE_DIR = /home/birl/worksp/iiwa_stack_birl/src/iiwa_force_control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/birl/worksp/iiwa_stack_birl/build
+CMAKE_BINARY_DIR = /home/birl/worksp/iiwa_stack_birl/build/iiwa_force_control
 
 # Include any dependencies generated for this target.
-include iiwa_force_control/CMakeFiles/test_switcher_node.dir/depend.make
+include CMakeFiles/test_switcher_node.dir/depend.make
 
 # Include the progress variables for this target.
-include iiwa_force_control/CMakeFiles/test_switcher_node.dir/progress.make
+include CMakeFiles/test_switcher_node.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include iiwa_force_control/CMakeFiles/test_switcher_node.dir/flags.make
+include CMakeFiles/test_switcher_node.dir/flags.make
 
-iiwa_force_control/CMakeFiles/test_switcher_node.dir/src/test_impedance_position_switcher.cpp.o: iiwa_force_control/CMakeFiles/test_switcher_node.dir/flags.make
-iiwa_force_control/CMakeFiles/test_switcher_node.dir/src/test_impedance_position_switcher.cpp.o: /home/birl/worksp/iiwa_stack_birl/src/iiwa_force_control/src/test_impedance_position_switcher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/birl/worksp/iiwa_stack_birl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object iiwa_force_control/CMakeFiles/test_switcher_node.dir/src/test_impedance_position_switcher.cpp.o"
-	cd /home/birl/worksp/iiwa_stack_birl/build/iiwa_force_control && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_switcher_node.dir/src/test_impedance_position_switcher.cpp.o -c /home/birl/worksp/iiwa_stack_birl/src/iiwa_force_control/src/test_impedance_position_switcher.cpp
+CMakeFiles/test_switcher_node.dir/src/test_impedance_position_switcher.cpp.o: CMakeFiles/test_switcher_node.dir/flags.make
+CMakeFiles/test_switcher_node.dir/src/test_impedance_position_switcher.cpp.o: /home/birl/worksp/iiwa_stack_birl/src/iiwa_force_control/src/test_impedance_position_switcher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/birl/worksp/iiwa_stack_birl/build/iiwa_force_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_switcher_node.dir/src/test_impedance_position_switcher.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_switcher_node.dir/src/test_impedance_position_switcher.cpp.o -c /home/birl/worksp/iiwa_stack_birl/src/iiwa_force_control/src/test_impedance_position_switcher.cpp
 
-iiwa_force_control/CMakeFiles/test_switcher_node.dir/src/test_impedance_position_switcher.cpp.i: cmake_force
+CMakeFiles/test_switcher_node.dir/src/test_impedance_position_switcher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_switcher_node.dir/src/test_impedance_position_switcher.cpp.i"
-	cd /home/birl/worksp/iiwa_stack_birl/build/iiwa_force_control && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/birl/worksp/iiwa_stack_birl/src/iiwa_force_control/src/test_impedance_position_switcher.cpp > CMakeFiles/test_switcher_node.dir/src/test_impedance_position_switcher.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/birl/worksp/iiwa_stack_birl/src/iiwa_force_control/src/test_impedance_position_switcher.cpp > CMakeFiles/test_switcher_node.dir/src/test_impedance_position_switcher.cpp.i
 
-iiwa_force_control/CMakeFiles/test_switcher_node.dir/src/test_impedance_position_switcher.cpp.s: cmake_force
+CMakeFiles/test_switcher_node.dir/src/test_impedance_position_switcher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_switcher_node.dir/src/test_impedance_position_switcher.cpp.s"
-	cd /home/birl/worksp/iiwa_stack_birl/build/iiwa_force_control && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/birl/worksp/iiwa_stack_birl/src/iiwa_force_control/src/test_impedance_position_switcher.cpp -o CMakeFiles/test_switcher_node.dir/src/test_impedance_position_switcher.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/birl/worksp/iiwa_stack_birl/src/iiwa_force_control/src/test_impedance_position_switcher.cpp -o CMakeFiles/test_switcher_node.dir/src/test_impedance_position_switcher.cpp.s
 
 # Object files for target test_switcher_node
 test_switcher_node_OBJECTS = \
@@ -77,114 +77,114 @@ test_switcher_node_OBJECTS = \
 # External object files for target test_switcher_node
 test_switcher_node_EXTERNAL_OBJECTS =
 
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: iiwa_force_control/CMakeFiles/test_switcher_node.dir/src/test_impedance_position_switcher.cpp.o
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: iiwa_force_control/CMakeFiles/test_switcher_node.dir/build.make
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /home/birl/worksp/iiwa_stack_birl/devel/lib/libposition_impedance_switcher.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libtf.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libactionlib.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libtf2.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_common_planning_interface_objects.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_planning_scene_interface.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_move_group_interface.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_warehouse.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libwarehouse_ros.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_pick_place_planner.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_move_group_capabilities_base.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_rdf_loader.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_kinematics_plugin_loader.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_robot_model_loader.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_constraint_sampler_manager_loader.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_planning_pipeline.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_trajectory_execution_manager.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_plan_execution.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_planning_scene_monitor.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_collision_plugin_loader.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_lazy_free_space_updater.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_point_containment_filter.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_occupancy_map_monitor.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_pointcloud_octomap_updater_core.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_semantic_world.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_exceptions.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_background_processing.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_kinematics_base.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_robot_model.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_transforms.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_robot_state.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_robot_trajectory.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_planning_interface.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_collision_detection.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_collision_detection_fcl.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_kinematic_constraints.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_planning_scene.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_constraint_samplers.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_planning_request_adapter.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_profiler.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_trajectory_processing.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_distance_field.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_kinematics_metrics.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_dynamics_solver.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_utils.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/libfcl.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libeigen_conversions.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libgeometric_shapes.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/liboctomap.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/liboctomath.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libkdl_parser.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/liborocos-kdl.so.1.3.0
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/liburdf.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/librosconsole_bridge.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/librandom_numbers.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libsrdfdom.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libimage_transport.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libclass_loader.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /usr/lib/libPocoFoundation.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libroslib.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/librospack.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libroscpp.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/librosconsole.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/librostime.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libcpp_common.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node: iiwa_force_control/CMakeFiles/test_switcher_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/birl/worksp/iiwa_stack_birl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node"
-	cd /home/birl/worksp/iiwa_stack_birl/build/iiwa_force_control && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_switcher_node.dir/link.txt --verbose=$(VERBOSE)
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: CMakeFiles/test_switcher_node.dir/src/test_impedance_position_switcher.cpp.o
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: CMakeFiles/test_switcher_node.dir/build.make
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/libposition_impedance_switcher.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libtf.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libactionlib.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libtf2.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_common_planning_interface_objects.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_planning_scene_interface.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_move_group_interface.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_warehouse.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libwarehouse_ros.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_pick_place_planner.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_move_group_capabilities_base.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_rdf_loader.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_kinematics_plugin_loader.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_robot_model_loader.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_constraint_sampler_manager_loader.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_planning_pipeline.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_trajectory_execution_manager.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_plan_execution.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_planning_scene_monitor.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_collision_plugin_loader.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_lazy_free_space_updater.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_point_containment_filter.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_occupancy_map_monitor.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_pointcloud_octomap_updater_core.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_semantic_world.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_exceptions.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_background_processing.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_kinematics_base.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_robot_model.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_transforms.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_robot_state.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_robot_trajectory.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_planning_interface.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_collision_detection.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_collision_detection_fcl.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_kinematic_constraints.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_planning_scene.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_constraint_samplers.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_planning_request_adapter.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_profiler.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_trajectory_processing.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_distance_field.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_kinematics_metrics.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_dynamics_solver.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmoveit_utils.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/libfcl.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libeigen_conversions.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libgeometric_shapes.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/liboctomap.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/liboctomath.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libkdl_parser.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/liborocos-kdl.so.1.3.0
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/liburdf.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/librosconsole_bridge.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/librandom_numbers.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libsrdfdom.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libimage_transport.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libclass_loader.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /usr/lib/libPocoFoundation.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libroslib.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/librospack.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libroscpp.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/librosconsole.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/librostime.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /opt/ros/kinetic/lib/libcpp_common.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node: CMakeFiles/test_switcher_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/birl/worksp/iiwa_stack_birl/build/iiwa_force_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_switcher_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-iiwa_force_control/CMakeFiles/test_switcher_node.dir/build: /home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node
+CMakeFiles/test_switcher_node.dir/build: /home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node
 
-.PHONY : iiwa_force_control/CMakeFiles/test_switcher_node.dir/build
+.PHONY : CMakeFiles/test_switcher_node.dir/build
 
-iiwa_force_control/CMakeFiles/test_switcher_node.dir/clean:
-	cd /home/birl/worksp/iiwa_stack_birl/build/iiwa_force_control && $(CMAKE_COMMAND) -P CMakeFiles/test_switcher_node.dir/cmake_clean.cmake
-.PHONY : iiwa_force_control/CMakeFiles/test_switcher_node.dir/clean
+CMakeFiles/test_switcher_node.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles/test_switcher_node.dir/cmake_clean.cmake
+.PHONY : CMakeFiles/test_switcher_node.dir/clean
 
-iiwa_force_control/CMakeFiles/test_switcher_node.dir/depend:
-	cd /home/birl/worksp/iiwa_stack_birl/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/birl/worksp/iiwa_stack_birl/src /home/birl/worksp/iiwa_stack_birl/src/iiwa_force_control /home/birl/worksp/iiwa_stack_birl/build /home/birl/worksp/iiwa_stack_birl/build/iiwa_force_control /home/birl/worksp/iiwa_stack_birl/build/iiwa_force_control/CMakeFiles/test_switcher_node.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : iiwa_force_control/CMakeFiles/test_switcher_node.dir/depend
+CMakeFiles/test_switcher_node.dir/depend:
+	cd /home/birl/worksp/iiwa_stack_birl/build/iiwa_force_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/birl/worksp/iiwa_stack_birl/src/iiwa_force_control /home/birl/worksp/iiwa_stack_birl/src/iiwa_force_control /home/birl/worksp/iiwa_stack_birl/build/iiwa_force_control /home/birl/worksp/iiwa_stack_birl/build/iiwa_force_control /home/birl/worksp/iiwa_stack_birl/build/iiwa_force_control/CMakeFiles/test_switcher_node.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : CMakeFiles/test_switcher_node.dir/depend
 

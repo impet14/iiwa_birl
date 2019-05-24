@@ -1,8 +1,1 @@
-(cl:in-package iiwa_msgs-msg)
-(cl:export '(CARTESIAN_DOF-VAL
-          CARTESIAN_DOF
-          DESIRED_FORCE-VAL
-          DESIRED_FORCE
-          DESIRED_STIFFNESS-VAL
-          DESIRED_STIFFNESS
-))
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/share/common-lisp/ros/iiwa_msgs/msg/_package_DesiredForceControlMode.lisp

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/iiwa_hw-bin.dir/src/main.cpp.o"
-  "/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_hw/iiwa_hw-bin.pdb"
-  "/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_hw/iiwa_hw-bin"
+  "/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/iiwa_hw/iiwa_hw-bin.pdb"
+  "/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/iiwa_hw/iiwa_hw-bin"
 )
 
 # Per-language clean rules from dependency scanning.

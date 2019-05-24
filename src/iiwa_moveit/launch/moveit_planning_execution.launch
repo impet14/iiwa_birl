@@ -45,7 +45,6 @@
         <include file="$(find iiwa_hw)/launch/iiwa_hw.launch" >
             <arg name="hardware_interface" value="$(arg hardware_interface)" />
         </include>
-        
     </group>
     
     <!-- Load move_group backup>>ns="$(arg robot_name)" -->
@@ -63,6 +62,10 @@
 
     </group>
     <!---->
-    <node pkg="tf" type="static_transform_publisher" name="link1_broadcaster3" args="0 0 0 0 0 0 1 /iiwa_link_ee /'Flange of LBR_iiwa_7_R800_1' 100" />
-    <node pkg="tf" type="static_transform_publisher" name="link1_broadcaster4" args="0 0 0 -0.5 -0.5 0.500001 -0.499999 /iiwa_link_ee /imu 100" />
+    <node pkg="tf" type="static_transform_publisher" name="link1_broadcaster1" args="0 0 0 0 0 0 1 /iiwa_link_ee /'Flange of LBR_iiwa_7_R800_1' 100" />
+    <node pkg="tf" type="static_transform_publisher" name="link1_broadcaster2" args="0 0 0 -0.5 -0.5 0.500001 -0.499999 /iiwa_link_ee /imu 100" />
+    <!-- <node pkg="tf" type="static_transform_publisher" name="link1_broadcaster3" args="0.034198 0.091914 -0.003023 -0.00079 -0.008304 0.993439 0.114056 /iiwa_link_ee /camera_color_optical_frame 100" /> -->
+    <!--node pkg="tf" type="static_transform_publisher" name="link1_broadcaster3" args="0.034198 0.091914 -0.003023 0.0 0.0 1 0.0 /iiwa_link_ee /camera_color_optical_frame 100" /-->
+    <!-- <node pkg="tf" type="static_transform_publisher" name="link1_broadcaster3" args="0.017438 0.110540 -0.003173  0.014968 -0.018726 0.990015 -0.138909 /iiwa_link_ee /camera_color_optical_frame 100" /> -->
+    <node pkg="tf" type="static_transform_publisher" name="link1_broadcaster3" args="0.017438 0.110540 -0.003173  0.0 0.0 1 0 /iiwa_link_ee /camera_color_optical_frame 100" />
 </launch>

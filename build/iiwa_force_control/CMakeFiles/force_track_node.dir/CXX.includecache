@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/birl/worksp/iiwa_stack_birl/devel/include/iiwa_msgs/CartesianControlModeLimits.h
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianControlModeLimits.h
 string
 -
 vector
@@ -28,7 +28,7 @@ iiwa_msgs/CartesianQuantity.h
 iiwa_msgs/CartesianQuantity.h
 -
 
-/home/birl/worksp/iiwa_stack_birl/devel/include/iiwa_msgs/CartesianImpedanceControlMode.h
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianImpedanceControlMode.h
 string
 -
 vector
@@ -48,7 +48,7 @@ iiwa_msgs/CartesianQuantity.h
 iiwa_msgs/CartesianQuantity.h
 -
 
-/home/birl/worksp/iiwa_stack_birl/devel/include/iiwa_msgs/CartesianQuantity.h
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianQuantity.h
 string
 -
 vector
@@ -64,7 +64,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/birl/worksp/iiwa_stack_birl/devel/include/iiwa_msgs/ConfigureSmartServo.h
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/include/iiwa_msgs/ConfigureSmartServo.h
 ros/service_traits.h
 -
 iiwa_msgs/ConfigureSmartServoRequest.h
@@ -72,7 +72,7 @@ iiwa_msgs/ConfigureSmartServoRequest.h
 iiwa_msgs/ConfigureSmartServoResponse.h
 -
 
-/home/birl/worksp/iiwa_stack_birl/devel/include/iiwa_msgs/ConfigureSmartServoRequest.h
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/include/iiwa_msgs/ConfigureSmartServoRequest.h
 string
 -
 vector
@@ -98,7 +98,7 @@ iiwa_msgs/SinePatternControlMode.h
 iiwa_msgs/CartesianControlModeLimits.h
 -
 
-/home/birl/worksp/iiwa_stack_birl/devel/include/iiwa_msgs/ConfigureSmartServoResponse.h
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/include/iiwa_msgs/ConfigureSmartServoResponse.h
 string
 -
 vector
@@ -114,7 +114,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/birl/worksp/iiwa_stack_birl/devel/include/iiwa_msgs/ControlMode.h
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/include/iiwa_msgs/ControlMode.h
 string
 -
 vector
@@ -130,7 +130,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/birl/worksp/iiwa_stack_birl/devel/include/iiwa_msgs/DesiredForceControlMode.h
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/include/iiwa_msgs/DesiredForceControlMode.h
 string
 -
 vector
@@ -146,7 +146,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/birl/worksp/iiwa_stack_birl/devel/include/iiwa_msgs/JointImpedanceControlMode.h
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/include/iiwa_msgs/JointImpedanceControlMode.h
 string
 -
 vector
@@ -166,7 +166,7 @@ iiwa_msgs/JointQuantity.h
 iiwa_msgs/JointQuantity.h
 -
 
-/home/birl/worksp/iiwa_stack_birl/devel/include/iiwa_msgs/JointQuantity.h
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/include/iiwa_msgs/JointQuantity.h
 string
 -
 vector
@@ -182,7 +182,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/birl/worksp/iiwa_stack_birl/devel/include/iiwa_msgs/SinePatternControlMode.h
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/include/iiwa_msgs/SinePatternControlMode.h
 string
 -
 vector

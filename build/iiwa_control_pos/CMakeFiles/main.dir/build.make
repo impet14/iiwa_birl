@@ -43,32 +43,32 @@ RM = /opt/cmake/cmake-3.12.0-Linux-x86_64/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/birl/worksp/iiwa_stack_birl/src
+CMAKE_SOURCE_DIR = /home/birl/worksp/iiwa_stack_birl/src/iiwa_control_pos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/birl/worksp/iiwa_stack_birl/build
+CMAKE_BINARY_DIR = /home/birl/worksp/iiwa_stack_birl/build/iiwa_control_pos
 
 # Include any dependencies generated for this target.
-include iiwa_control_pos/CMakeFiles/main.dir/depend.make
+include CMakeFiles/main.dir/depend.make
 
 # Include the progress variables for this target.
-include iiwa_control_pos/CMakeFiles/main.dir/progress.make
+include CMakeFiles/main.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include iiwa_control_pos/CMakeFiles/main.dir/flags.make
+include CMakeFiles/main.dir/flags.make
 
-iiwa_control_pos/CMakeFiles/main.dir/src/main.cpp.o: iiwa_control_pos/CMakeFiles/main.dir/flags.make
-iiwa_control_pos/CMakeFiles/main.dir/src/main.cpp.o: /home/birl/worksp/iiwa_stack_birl/src/iiwa_control_pos/src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/birl/worksp/iiwa_stack_birl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object iiwa_control_pos/CMakeFiles/main.dir/src/main.cpp.o"
-	cd /home/birl/worksp/iiwa_stack_birl/build/iiwa_control_pos && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/main.cpp.o -c /home/birl/worksp/iiwa_stack_birl/src/iiwa_control_pos/src/main.cpp
+CMakeFiles/main.dir/src/main.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/main.cpp.o: /home/birl/worksp/iiwa_stack_birl/src/iiwa_control_pos/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/birl/worksp/iiwa_stack_birl/build/iiwa_control_pos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/main.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/main.cpp.o -c /home/birl/worksp/iiwa_stack_birl/src/iiwa_control_pos/src/main.cpp
 
-iiwa_control_pos/CMakeFiles/main.dir/src/main.cpp.i: cmake_force
+CMakeFiles/main.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/main.cpp.i"
-	cd /home/birl/worksp/iiwa_stack_birl/build/iiwa_control_pos && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/birl/worksp/iiwa_stack_birl/src/iiwa_control_pos/src/main.cpp > CMakeFiles/main.dir/src/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/birl/worksp/iiwa_stack_birl/src/iiwa_control_pos/src/main.cpp > CMakeFiles/main.dir/src/main.cpp.i
 
-iiwa_control_pos/CMakeFiles/main.dir/src/main.cpp.s: cmake_force
+CMakeFiles/main.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/main.cpp.s"
-	cd /home/birl/worksp/iiwa_stack_birl/build/iiwa_control_pos && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/birl/worksp/iiwa_stack_birl/src/iiwa_control_pos/src/main.cpp -o CMakeFiles/main.dir/src/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/birl/worksp/iiwa_stack_birl/src/iiwa_control_pos/src/main.cpp -o CMakeFiles/main.dir/src/main.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
@@ -77,46 +77,46 @@ main_OBJECTS = \
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_control_pos/main: iiwa_control_pos/CMakeFiles/main.dir/src/main.cpp.o
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_control_pos/main: iiwa_control_pos/CMakeFiles/main.dir/build.make
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_control_pos/main: /opt/ros/kinetic/lib/libtf.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_control_pos/main: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_control_pos/main: /opt/ros/kinetic/lib/libactionlib.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_control_pos/main: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_control_pos/main: /opt/ros/kinetic/lib/libroscpp.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_control_pos/main: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_control_pos/main: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_control_pos/main: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_control_pos/main: /opt/ros/kinetic/lib/libtf2.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_control_pos/main: /opt/ros/kinetic/lib/librosconsole.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_control_pos/main: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_control_pos/main: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_control_pos/main: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_control_pos/main: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_control_pos/main: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_control_pos/main: /opt/ros/kinetic/lib/librostime.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_control_pos/main: /opt/ros/kinetic/lib/libcpp_common.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_control_pos/main: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_control_pos/main: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_control_pos/main: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_control_pos/main: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_control_pos/main: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_control_pos/main: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_control_pos/main: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_control_pos/main: iiwa_control_pos/CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/birl/worksp/iiwa_stack_birl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_control_pos/main"
-	cd /home/birl/worksp/iiwa_stack_birl/build/iiwa_control_pos && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_control_pos/lib/iiwa_control_pos/main: CMakeFiles/main.dir/src/main.cpp.o
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_control_pos/lib/iiwa_control_pos/main: CMakeFiles/main.dir/build.make
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_control_pos/lib/iiwa_control_pos/main: /opt/ros/kinetic/lib/libtf.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_control_pos/lib/iiwa_control_pos/main: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_control_pos/lib/iiwa_control_pos/main: /opt/ros/kinetic/lib/libactionlib.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_control_pos/lib/iiwa_control_pos/main: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_control_pos/lib/iiwa_control_pos/main: /opt/ros/kinetic/lib/libroscpp.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_control_pos/lib/iiwa_control_pos/main: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_control_pos/lib/iiwa_control_pos/main: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_control_pos/lib/iiwa_control_pos/main: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_control_pos/lib/iiwa_control_pos/main: /opt/ros/kinetic/lib/libtf2.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_control_pos/lib/iiwa_control_pos/main: /opt/ros/kinetic/lib/librosconsole.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_control_pos/lib/iiwa_control_pos/main: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_control_pos/lib/iiwa_control_pos/main: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_control_pos/lib/iiwa_control_pos/main: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_control_pos/lib/iiwa_control_pos/main: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_control_pos/lib/iiwa_control_pos/main: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_control_pos/lib/iiwa_control_pos/main: /opt/ros/kinetic/lib/librostime.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_control_pos/lib/iiwa_control_pos/main: /opt/ros/kinetic/lib/libcpp_common.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_control_pos/lib/iiwa_control_pos/main: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_control_pos/lib/iiwa_control_pos/main: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_control_pos/lib/iiwa_control_pos/main: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_control_pos/lib/iiwa_control_pos/main: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_control_pos/lib/iiwa_control_pos/main: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_control_pos/lib/iiwa_control_pos/main: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_control_pos/lib/iiwa_control_pos/main: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_control_pos/lib/iiwa_control_pos/main: CMakeFiles/main.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/birl/worksp/iiwa_stack_birl/build/iiwa_control_pos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_control_pos/lib/iiwa_control_pos/main"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-iiwa_control_pos/CMakeFiles/main.dir/build: /home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_control_pos/main
+CMakeFiles/main.dir/build: /home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_control_pos/lib/iiwa_control_pos/main
 
-.PHONY : iiwa_control_pos/CMakeFiles/main.dir/build
+.PHONY : CMakeFiles/main.dir/build
 
-iiwa_control_pos/CMakeFiles/main.dir/clean:
-	cd /home/birl/worksp/iiwa_stack_birl/build/iiwa_control_pos && $(CMAKE_COMMAND) -P CMakeFiles/main.dir/cmake_clean.cmake
-.PHONY : iiwa_control_pos/CMakeFiles/main.dir/clean
+CMakeFiles/main.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles/main.dir/cmake_clean.cmake
+.PHONY : CMakeFiles/main.dir/clean
 
-iiwa_control_pos/CMakeFiles/main.dir/depend:
-	cd /home/birl/worksp/iiwa_stack_birl/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/birl/worksp/iiwa_stack_birl/src /home/birl/worksp/iiwa_stack_birl/src/iiwa_control_pos /home/birl/worksp/iiwa_stack_birl/build /home/birl/worksp/iiwa_stack_birl/build/iiwa_control_pos /home/birl/worksp/iiwa_stack_birl/build/iiwa_control_pos/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : iiwa_control_pos/CMakeFiles/main.dir/depend
+CMakeFiles/main.dir/depend:
+	cd /home/birl/worksp/iiwa_stack_birl/build/iiwa_control_pos && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/birl/worksp/iiwa_stack_birl/src/iiwa_control_pos /home/birl/worksp/iiwa_stack_birl/src/iiwa_control_pos /home/birl/worksp/iiwa_stack_birl/build/iiwa_control_pos /home/birl/worksp/iiwa_stack_birl/build/iiwa_control_pos /home/birl/worksp/iiwa_stack_birl/build/iiwa_control_pos/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : CMakeFiles/main.dir/depend
 

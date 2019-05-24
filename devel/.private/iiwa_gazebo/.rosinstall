@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_gazebo/setup.sh

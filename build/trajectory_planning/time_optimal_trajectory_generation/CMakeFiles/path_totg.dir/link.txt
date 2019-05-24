@@ -1,1 +1,0 @@
-/usr/bin/g++ -fPIC -g  -shared -Wl,-soname,libpath_totg.so -o /home/birl/worksp/iiwa_stack_birl/devel/lib/libpath_totg.so CMakeFiles/path_totg.dir/src/Path.cpp.o 

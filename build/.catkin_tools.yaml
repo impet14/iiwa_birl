@@ -1,0 +1,6 @@
+devel_space: /home/birl/worksp/iiwa_stack_birl/devel
+install: false
+install_space: /home/birl/worksp/iiwa_stack_birl/install
+profile: default
+source_space: /home/birl/worksp/iiwa_stack_birl/src
+workspace: /home/birl/worksp/iiwa_stack_birl

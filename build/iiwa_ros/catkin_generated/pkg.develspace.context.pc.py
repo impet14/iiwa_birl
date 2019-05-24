@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "/home/birl/worksp/iiwa_stack_birl/src/iiwa_ro
 PROJECT_CATKIN_DEPENDS = "iiwa_msgs;roscpp".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-liiwa_ros".split(';') if "-liiwa_ros" != "" else []
 PROJECT_NAME = "iiwa_ros"
-PROJECT_SPACE_DIR = "/home/birl/worksp/iiwa_stack_birl/devel"
+PROJECT_SPACE_DIR = "/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_ros"
 PROJECT_VERSION = "1.4.0"

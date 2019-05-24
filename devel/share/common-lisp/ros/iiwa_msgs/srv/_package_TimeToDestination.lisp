@@ -1,4 +1,1 @@
-(cl:in-package iiwa_msgs-srv)
-(cl:export '(REMAINING_TIME-VAL
-          REMAINING_TIME
-))
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_msgs/share/common-lisp/ros/iiwa_msgs/srv/_package_TimeToDestination.lisp

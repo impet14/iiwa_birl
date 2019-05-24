@@ -1,0 +1,4 @@
+iiwa_control
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_control/lib/pkgconfig/iiwa_control.pc /home/birl/worksp/iiwa_stack_birl/devel/lib/pkgconfig/iiwa_control.pc
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_control/share/iiwa_control/cmake/iiwa_controlConfig.cmake /home/birl/worksp/iiwa_stack_birl/devel/share/iiwa_control/cmake/iiwa_controlConfig.cmake
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_control/share/iiwa_control/cmake/iiwa_controlConfig-version.cmake /home/birl/worksp/iiwa_stack_birl/devel/share/iiwa_control/cmake/iiwa_controlConfig-version.cmake

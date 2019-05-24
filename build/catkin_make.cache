@@ -1,2 +1,0 @@
-iiwa:iiwa_control:iiwa_control_pos:iiwa_description:iiwa_force_control:iiwa_gazebo:iiwa_hw:iiwa_moveit:iiwa_msgs:iiwa_nodetest:iiwa_ros:trajectory_planning/time_optimal_trajectory_generation
--G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCATKIN_DEVEL_PREFIX=/home/birl/worksp/iiwa_stack_birl/devel -DCMAKE_INSTALL_PREFIX=/home/birl/worksp/iiwa_stack_birl/install

@@ -43,32 +43,32 @@ RM = /opt/cmake/cmake-3.12.0-Linux-x86_64/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/birl/worksp/iiwa_stack_birl/src
+CMAKE_SOURCE_DIR = /home/birl/worksp/iiwa_stack_birl/src/iiwa_hw
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/birl/worksp/iiwa_stack_birl/build
+CMAKE_BINARY_DIR = /home/birl/worksp/iiwa_stack_birl/build/iiwa_hw
 
 # Include any dependencies generated for this target.
-include iiwa_hw/CMakeFiles/iiwa_hw.dir/depend.make
+include CMakeFiles/iiwa_hw.dir/depend.make
 
 # Include the progress variables for this target.
-include iiwa_hw/CMakeFiles/iiwa_hw.dir/progress.make
+include CMakeFiles/iiwa_hw.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include iiwa_hw/CMakeFiles/iiwa_hw.dir/flags.make
+include CMakeFiles/iiwa_hw.dir/flags.make
 
-iiwa_hw/CMakeFiles/iiwa_hw.dir/src/iiwa_hw.cpp.o: iiwa_hw/CMakeFiles/iiwa_hw.dir/flags.make
-iiwa_hw/CMakeFiles/iiwa_hw.dir/src/iiwa_hw.cpp.o: /home/birl/worksp/iiwa_stack_birl/src/iiwa_hw/src/iiwa_hw.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/birl/worksp/iiwa_stack_birl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object iiwa_hw/CMakeFiles/iiwa_hw.dir/src/iiwa_hw.cpp.o"
-	cd /home/birl/worksp/iiwa_stack_birl/build/iiwa_hw && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iiwa_hw.dir/src/iiwa_hw.cpp.o -c /home/birl/worksp/iiwa_stack_birl/src/iiwa_hw/src/iiwa_hw.cpp
+CMakeFiles/iiwa_hw.dir/src/iiwa_hw.cpp.o: CMakeFiles/iiwa_hw.dir/flags.make
+CMakeFiles/iiwa_hw.dir/src/iiwa_hw.cpp.o: /home/birl/worksp/iiwa_stack_birl/src/iiwa_hw/src/iiwa_hw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/birl/worksp/iiwa_stack_birl/build/iiwa_hw/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/iiwa_hw.dir/src/iiwa_hw.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iiwa_hw.dir/src/iiwa_hw.cpp.o -c /home/birl/worksp/iiwa_stack_birl/src/iiwa_hw/src/iiwa_hw.cpp
 
-iiwa_hw/CMakeFiles/iiwa_hw.dir/src/iiwa_hw.cpp.i: cmake_force
+CMakeFiles/iiwa_hw.dir/src/iiwa_hw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iiwa_hw.dir/src/iiwa_hw.cpp.i"
-	cd /home/birl/worksp/iiwa_stack_birl/build/iiwa_hw && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/birl/worksp/iiwa_stack_birl/src/iiwa_hw/src/iiwa_hw.cpp > CMakeFiles/iiwa_hw.dir/src/iiwa_hw.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/birl/worksp/iiwa_stack_birl/src/iiwa_hw/src/iiwa_hw.cpp > CMakeFiles/iiwa_hw.dir/src/iiwa_hw.cpp.i
 
-iiwa_hw/CMakeFiles/iiwa_hw.dir/src/iiwa_hw.cpp.s: cmake_force
+CMakeFiles/iiwa_hw.dir/src/iiwa_hw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iiwa_hw.dir/src/iiwa_hw.cpp.s"
-	cd /home/birl/worksp/iiwa_stack_birl/build/iiwa_hw && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/birl/worksp/iiwa_stack_birl/src/iiwa_hw/src/iiwa_hw.cpp -o CMakeFiles/iiwa_hw.dir/src/iiwa_hw.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/birl/worksp/iiwa_stack_birl/src/iiwa_hw/src/iiwa_hw.cpp -o CMakeFiles/iiwa_hw.dir/src/iiwa_hw.cpp.s
 
 # Object files for target iiwa_hw
 iiwa_hw_OBJECTS = \
@@ -77,66 +77,66 @@ iiwa_hw_OBJECTS = \
 # External object files for target iiwa_hw
 iiwa_hw_EXTERNAL_OBJECTS =
 
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: iiwa_hw/CMakeFiles/iiwa_hw.dir/src/iiwa_hw.cpp.o
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: iiwa_hw/CMakeFiles/iiwa_hw.dir/build.make
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/libcontrol_toolbox.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/libcontroller_manager.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/libclass_loader.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /usr/lib/libPocoFoundation.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/libroslib.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/librospack.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/librealtime_tools.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/libtf.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/libactionlib.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/libtf2.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/liburdf.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/librosconsole_bridge.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_ros.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/libroscpp.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/librosconsole.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/librostime.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/libcpp_common.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so: iiwa_hw/CMakeFiles/iiwa_hw.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/birl/worksp/iiwa_stack_birl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so"
-	cd /home/birl/worksp/iiwa_stack_birl/build/iiwa_hw && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/iiwa_hw.dir/link.txt --verbose=$(VERBOSE)
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: CMakeFiles/iiwa_hw.dir/src/iiwa_hw.cpp.o
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: CMakeFiles/iiwa_hw.dir/build.make
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/libcontrol_toolbox.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/libcontroller_manager.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/libclass_loader.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /usr/lib/libPocoFoundation.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/libroslib.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/librospack.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/librealtime_tools.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/libtf.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/libactionlib.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/libtf2.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/liburdf.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/librosconsole_bridge.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_ros/lib/libiiwa_ros.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/libroscpp.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/librosconsole.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/librostime.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /opt/ros/kinetic/lib/libcpp_common.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so: CMakeFiles/iiwa_hw.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/birl/worksp/iiwa_stack_birl/build/iiwa_hw/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/iiwa_hw.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-iiwa_hw/CMakeFiles/iiwa_hw.dir/build: /home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so
+CMakeFiles/iiwa_hw.dir/build: /home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_hw/lib/libiiwa_hw.so
 
-.PHONY : iiwa_hw/CMakeFiles/iiwa_hw.dir/build
+.PHONY : CMakeFiles/iiwa_hw.dir/build
 
-iiwa_hw/CMakeFiles/iiwa_hw.dir/clean:
-	cd /home/birl/worksp/iiwa_stack_birl/build/iiwa_hw && $(CMAKE_COMMAND) -P CMakeFiles/iiwa_hw.dir/cmake_clean.cmake
-.PHONY : iiwa_hw/CMakeFiles/iiwa_hw.dir/clean
+CMakeFiles/iiwa_hw.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles/iiwa_hw.dir/cmake_clean.cmake
+.PHONY : CMakeFiles/iiwa_hw.dir/clean
 
-iiwa_hw/CMakeFiles/iiwa_hw.dir/depend:
-	cd /home/birl/worksp/iiwa_stack_birl/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/birl/worksp/iiwa_stack_birl/src /home/birl/worksp/iiwa_stack_birl/src/iiwa_hw /home/birl/worksp/iiwa_stack_birl/build /home/birl/worksp/iiwa_stack_birl/build/iiwa_hw /home/birl/worksp/iiwa_stack_birl/build/iiwa_hw/CMakeFiles/iiwa_hw.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : iiwa_hw/CMakeFiles/iiwa_hw.dir/depend
+CMakeFiles/iiwa_hw.dir/depend:
+	cd /home/birl/worksp/iiwa_stack_birl/build/iiwa_hw && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/birl/worksp/iiwa_stack_birl/src/iiwa_hw /home/birl/worksp/iiwa_stack_birl/src/iiwa_hw /home/birl/worksp/iiwa_stack_birl/build/iiwa_hw /home/birl/worksp/iiwa_stack_birl/build/iiwa_hw /home/birl/worksp/iiwa_stack_birl/build/iiwa_hw/CMakeFiles/iiwa_hw.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : CMakeFiles/iiwa_hw.dir/depend
 

@@ -1,0 +1,15 @@
+[31m[1mCMake Error[0m at /opt/ros/kinetic/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+  Could not find a package configuration file provided by "iiwa_msgs" with
+  any of the following names:
+
+    iiwa_msgsConfig.cmake
+    iiwa_msgs-config.cmake
+
+  Add the installation prefix of "iiwa_msgs" to CMAKE_PREFIX_PATH or set
+  "iiwa_msgs_DIR" to a directory containing one of the above files.  If
+  "iiwa_msgs" provides a separate development package or SDK, be sure it has
+  been installed.
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:10 (find_package)
+
+

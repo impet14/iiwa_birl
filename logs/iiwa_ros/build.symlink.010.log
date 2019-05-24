@@ -1,0 +1,4 @@
+Symlinking /home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_ros.so
+Symlinking /home/birl/worksp/iiwa_stack_birl/devel/lib/pkgconfig/iiwa_ros.pc
+Symlinking /home/birl/worksp/iiwa_stack_birl/devel/share/iiwa_ros/cmake/iiwa_rosConfig.cmake
+Symlinking /home/birl/worksp/iiwa_stack_birl/devel/share/iiwa_ros/cmake/iiwa_rosConfig-version.cmake

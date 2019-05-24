@@ -16,21 +16,26 @@ PositionImpedanceSwitcher::PositionImpedanceSwitcher(ros::NodeHandle &nh_)
 */
 PositionImpedanceSwitcher::PositionImpedanceSwitcher(ros::NodeHandle &nh_, const std::string &robot_description_)
   :nh(nh_)
-  ,control_mode(0)
-  ,reference_point_position(0, 0, 0)
+  ,control_mode(0) //check?
+  ,reference_point_position(0, 0, 0) //check?
   ,robot_model_loader(robot_description_)
   ,iiwa_kinematic_state(new robot_state::RobotState(robot_model_loader.getModel()))
   ,iiwa_joint_model_group(robot_model_loader.getModel()->getJointModelGroup("manipulator"))
 {
   //set target points
+  // use global variable to read the saved pose coming from geometry_msgs/Pose
   target_cartesian_pose1 << 0.63465,  0.06999, 0.22461, 0, 0, 0;
   target_cartesian_pose2 << 0.62219, -0.06589, 0.22461, 0, 0, 0;
   target_cartesian_pose = target_cartesian_pose1;
   //no sync
-  cartesian_wrench_sub = nh.subscribe<iiwa_msgs::JointPositionConstPtr>("/iiwa/state/JointPosition", 1, &PositionImpedanceSwitcher::callbackJointVelocity, this);
 
-  client = nh.serviceClient<iiwa_msgs::ConfigureSmartServo>("/iiwa/configuration/configureSmartServo");
+  // Publishers and Subscribers
+  cartesian_wrench_sub = nh.subscribe<iiwa_msgs::JointPositionConstPtr>("/iiwa/state/JointPosition", 1, &PositionImpedanceSwitcher::callbackJointVelocity, this);
   command_pub = nh.advertise<iiwa_msgs::JointVelocity>("/iiwa/command/JointVelocity", 1);
+
+  // Services
+  client = nh.serviceClient<iiwa_msgs::ConfigureSmartServo>("/iiwa/configuration/configureSmartServo");
+
   //sync the joint position topic and cartesian wrench
   /*
   iiwa_joint_position_sub = new message_filters::Subscriber<iiwa_msgs::JointPosition>(nh, "/iiwa/state/JointPosition", 1);

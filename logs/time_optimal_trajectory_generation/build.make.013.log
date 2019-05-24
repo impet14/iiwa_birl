@@ -1,0 +1,16 @@
+[35m[1mScanning dependencies of target path_totg[0m
+[35m[1mScanning dependencies of target trajectory_totg[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/path_totg.dir/src/Path.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/trajectory_totg.dir/src/Trajectory.cpp.o[0m
+[ 37%] [32m[1mLinking CXX shared library /home/birl/worksp/iiwa_stack_birl/devel/.private/time_optimal_trajectory_generation/lib/libtrajectory_totg.so[0m
+[ 37%] Built target trajectory_totg
+[ 50%] [32m[1mLinking CXX shared library /home/birl/worksp/iiwa_stack_birl/devel/.private/time_optimal_trajectory_generation/lib/libpath_totg.so[0m
+[ 50%] Built target path_totg
+[35m[1mScanning dependencies of target example_totg[0m
+[35m[1mScanning dependencies of target test_totg[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/example_totg.dir/src/Example.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/test_totg.dir/src/Test.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable /home/birl/worksp/iiwa_stack_birl/devel/.private/time_optimal_trajectory_generation/lib/time_optimal_trajectory_generation/example_totg[0m
+[100%] [32m[1mLinking CXX executable /home/birl/worksp/iiwa_stack_birl/devel/.private/time_optimal_trajectory_generation/lib/time_optimal_trajectory_generation/test_totg[0m
+[100%] Built target example_totg
+[100%] Built target test_totg

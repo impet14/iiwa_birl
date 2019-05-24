@@ -1,0 +1,7 @@
+Symlinking /home/birl/worksp/iiwa_stack_birl/devel/lib/libtrajectory_totg.so
+Symlinking /home/birl/worksp/iiwa_stack_birl/devel/lib/libpath_totg.so
+Symlinking /home/birl/worksp/iiwa_stack_birl/devel/lib/pkgconfig/time_optimal_trajectory_generation.pc
+Symlinking /home/birl/worksp/iiwa_stack_birl/devel/lib/time_optimal_trajectory_generation/test_totg
+Symlinking /home/birl/worksp/iiwa_stack_birl/devel/lib/time_optimal_trajectory_generation/example_totg
+Symlinking /home/birl/worksp/iiwa_stack_birl/devel/share/time_optimal_trajectory_generation/cmake/time_optimal_trajectory_generationConfig-version.cmake
+Symlinking /home/birl/worksp/iiwa_stack_birl/devel/share/time_optimal_trajectory_generation/cmake/time_optimal_trajectory_generationConfig.cmake

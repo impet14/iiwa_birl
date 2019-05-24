@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test_switcher_node.dir/src/test_impedance_position_switcher.cpp.o"
-  "/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node.pdb"
-  "/home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_force_control/test_switcher_node"
+  "/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node.pdb"
+  "/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_force_control/lib/iiwa_force_control/test_switcher_node"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,0 +1,4 @@
+iiwa_nodetest
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_nodetest/lib/pkgconfig/iiwa_nodetest.pc /home/birl/worksp/iiwa_stack_birl/devel/lib/pkgconfig/iiwa_nodetest.pc
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_nodetest/share/iiwa_nodetest/cmake/iiwa_nodetestConfig-version.cmake /home/birl/worksp/iiwa_stack_birl/devel/share/iiwa_nodetest/cmake/iiwa_nodetestConfig-version.cmake
+/home/birl/worksp/iiwa_stack_birl/devel/.private/iiwa_nodetest/share/iiwa_nodetest/cmake/iiwa_nodetestConfig.cmake /home/birl/worksp/iiwa_stack_birl/devel/share/iiwa_nodetest/cmake/iiwa_nodetestConfig.cmake

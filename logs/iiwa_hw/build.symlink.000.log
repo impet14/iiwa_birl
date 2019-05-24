@@ -1,0 +1,5 @@
+Symlinking /home/birl/worksp/iiwa_stack_birl/devel/lib/libiiwa_hw.so
+Symlinking /home/birl/worksp/iiwa_stack_birl/devel/lib/pkgconfig/iiwa_hw.pc
+Symlinking /home/birl/worksp/iiwa_stack_birl/devel/lib/iiwa_hw/iiwa_hw-bin
+Symlinking /home/birl/worksp/iiwa_stack_birl/devel/share/iiwa_hw/cmake/iiwa_hwConfig.cmake
+Symlinking /home/birl/worksp/iiwa_stack_birl/devel/share/iiwa_hw/cmake/iiwa_hwConfig-version.cmake
